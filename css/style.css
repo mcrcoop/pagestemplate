@@ -1,0 +1,99 @@
+html {
+    background-color: #eeeeef;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  min-height:100vh;
+  margin: auto;
+  background-color: #fff;
+}
+
+header {
+  top: 0;
+  position: sticky;
+  background-color: #eeeeef;
+}
+
+header span {
+  display: inline-block;
+  float: left;
+  font-weight: bold;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+  text-align: center;
+}
+
+header nav a {
+  text-decoration:none;
+  padding: 2px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+
+header nav a:hover {
+  background-color: #ccc;
+}
+
+header nav a.current-page {
+  background-color: #fff;
+  border:1px solid #fff;
+}
+
+@media screen and (max-width: 600px) {
+  header nav a {
+    display: block;
+  }
+}
+
+main {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 + p {
+  text-align: center;
+}
+
+small {
+  text-align: right;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 80%;
+  background-color: #eeeeef;
+}
+
+main > h3 {
+    text-align: center;
+}
+
+main > h3 > a {
+  border-radius: 4px;
+  display:block;
+  background: #eeeeef;
+  margin: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+main > h3 > a:hover {
+  background: #ccc;
+  text-decoration: none;
+}
